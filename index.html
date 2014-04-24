@@ -7,19 +7,23 @@
     
 </head>
 <body>
-    <p id="message"></p>
-    <form name="myForm" method="get">
-        <input type="text" name="a" id="a" />
-        <select name="c" id="c">
-            <option value="+">+</option>
-            <option value="-">-</option>
-            <option value="*">*</option>
-            <option value="/">/</option>
-        </select>
-        <input type="text" name="b" id="b" />
-        <input type="button" id="calculate" value="Räkna" />
-    </form>
-    
-    <script type="text/javascript" src="script.js"></script>
+    <div id="wrapper">
+        <h1>Gissa operatorn</h1>
+        <span id="a"></span>
+        <span class="question">?</span>
+        <span id="b"></span>
+        <span>=</span>
+        <span id="sum"></span>
+        <p id="message"></p>
+        <form name="answear" method="get">
+            <input type="button" id="addition" value="Addition" />
+            <input type="button" id="subtraction" value="Subtraktion" />
+            <input type="button" id="multiplication" value="Multiplikaiton" />
+            <input type="button" id="division" value="Division" />
+        </form>
+        <div id="score">
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </div>
 </body>
 </html>
