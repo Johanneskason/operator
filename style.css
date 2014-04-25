@@ -8,7 +8,7 @@ body{
     padding: 10px 30px 30px 30px;
     background-color: white;
     margin: 0 auto;
-    width: 500px;
+    max-width: 440px;
     border: 15px solid #37A6F8;
 }
 h1{
@@ -21,11 +21,13 @@ h1{
     padding-top: 5px;
     padding-bottom: 10px;
 }
-
+#text{
+    text-align: center;
+}
 span{
     color: #37A6F8;
     font-size: 30px;
-    width: 80px;
+    width: 19%;
     text-align: center;
     display: inline-block;
 }
@@ -36,11 +38,17 @@ span{
 form{
     text-align:center;
 }
+#message{
+    text-align: center;
+    font-size:30px;
+    color: #37A6F8;
+}
 #score{
     color: #37A6F8;
     padding: 10px;
     font-size:30px;
     text-align:center;
+    width: 100%;
 }
 /*
 input{
